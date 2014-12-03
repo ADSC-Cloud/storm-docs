@@ -42,5 +42,5 @@ If it is not local, schedule to create a temp connection, delay and retry.
 	What if we need to use the port for a new worker?  
 	Resource conflicts: port, log file, heartbeat file, etc.  
 	Maybe close the port (possible using receive-thread-shutdown)?
-	</del>
+	</del>  
 	Supervisor will keep workers alive for 1 sec during shutdown.
